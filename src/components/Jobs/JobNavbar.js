@@ -22,7 +22,7 @@ const JobNavbar = () => {
   const [activeNav, setActiveNav] = useState(null);
   return (
     <div>
-      <ul className="flex items-center gap-8 py-3 px-12 border-b">
+      <ul className="flex items-center gap-8 py-3 px-20 border-b">
         {navbarCompo.map((item) => (
           <li
             key={item.title}

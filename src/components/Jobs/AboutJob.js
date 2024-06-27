@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutJob = () => {
   return (
-    <div className="border-b px-12 py-6">
+    <div className="border-b px-20 py-6">
       <h4 className="mb-2 text-sm text-grey-450">About Job</h4>
       <div className="text-md text-grey-300">
         <ol className="list-decimal list-inside">

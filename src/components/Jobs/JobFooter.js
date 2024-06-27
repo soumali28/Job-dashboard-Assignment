@@ -3,7 +3,7 @@ import profile from "../../assets/profile.png";
 
 const JobFooter = (props) => {
   return (
-    <div className="px-12 pt-6 pb-8">
+    <div className="px-20 pt-6 pb-8">
       <div className="flex items-center gap-2 mb-6">
         <div className="w-[40px] h-[40px]">
           <img src={profile} alt="profile" className="rounded" />

@@ -6,7 +6,7 @@ import { LiaCoinsSolid } from "react-icons/lia";
 
 const JobHeader = (props) => {
   return (
-    <div className="border-b px-12 py-6">
+    <div className="border-b px-20 py-6">
       <div className="flex items-center gap-2 mb-6">
         <h2 className="text-[35px] text-grey-300 font-semibold">
           {props.title}

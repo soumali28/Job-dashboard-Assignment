@@ -3,7 +3,7 @@ import SkillBadge from "../SkillBadge";
 
 const JobsDesp = () => {
   return (
-    <div className="border-b px-12 py-6">
+    <div className="border-b px-20 py-6">
       <div className="grid grid-cols-4 gap-4">
         <div className="col-span-1">
           <h4 className="mb-2 text-sm text-grey-450">Skills Required</h4>
