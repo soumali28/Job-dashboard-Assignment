@@ -30,7 +30,7 @@ const JobSidebar = () => {
 
   ]
   return (
-    <div className="p-6 bg-grey-10 h-full">
+    <div className="p-6 h-full">
       <div className="flex items-center justify-between">
         <button
           className={`flex items-center px-8 py-3  rounded-lg cursor-pointer bg-orange-10 text-orange-100 border border-orange-100`}

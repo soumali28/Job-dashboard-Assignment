@@ -5,13 +5,13 @@ import JobSidebar from "../components/Jobs/JobSidebar";
 
 const Jobs = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <JobNavbar />
-      <div className="w-full flex">
+      <div className="w-[100%] flex">
         <div className="w-[75%]">
           <JobPreview />
         </div>
-        <div className="w-[25%]">
+        <div className="w-[25%] bg-grey-10">
           {" "}
           <JobSidebar />
         </div>
